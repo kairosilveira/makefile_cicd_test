@@ -1,7 +1,7 @@
-import code as c
+from code import square
 
 def test_square():
-    assert c.square(-1)==1
-    assert c.square(2)==4
-    assert c.square(-2)==4
-    assert c.square(0)==0
+    assert square(-1)==1
+    assert square(2)==4
+    assert square(-2)==4
+    assert square(0)==0
